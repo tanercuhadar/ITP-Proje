@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,400;1,500;1,600&display=swap');
+
+:root{
+--main-color: #d8e8f7;
+--black-color:#000000;
+}
+
+*{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease;
+    border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    
+}
+
+.header img{
+    height: 8rem;
+}
+html{
+    overflow: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--main-color);
+    
+}
+section{
+    padding: 3.5rem 7%;
+}
+.sipariş{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 2rem 3.7rem;
+    border-radius: 35rem;
+    background-color: black;
+    color: white;
+}
+.header{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    padding: 0 10%;
+    margin: 2rem 7%;
+    justify-content: space-between;
+    position: sticky;   
+    top: 0;
+    z-index: 1000;
+    border-radius: 2rem; 
+    }
+    .header .nav a{
+        font-size: 1.5rem;
+        color: var(--black-color);
+        margin: 0 1rem;
+        border-bottom: 0.1rem solid transparent;
+
+    }
+    .header .nav a:hover{
+        border-color: var(--black-color);
+        padding-bottom: 0.3rem;
+    }
+    .header .nav  .anasayfa{
+        border-color: var(--black-color);
+        padding-bottom: 0.3rem;
+    }
+    .header .arama button{
+margin-left: 2rem;
+cursor: pointer;
+background-color: transparent;
+font-size: 2rem;
+
+    }
+    .home{
+        min-height: 100vh;
+        background: url(Resimler/yemek-fotografi-nasil-cekilir-ankara-dijital-ajans-siradisi-digital-5.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        margin-top: -14.5rem;
+    }
+    .home .content{
+        max-width: 60rem;
+
+    }
+    .home .content h2{
+        font-size: 6rem;
+        color: white;
+
+    }
+    .home .content p{
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 2;
+        padding: 1rem 0;
+        color: #ffffff;
+        ;
+    }
