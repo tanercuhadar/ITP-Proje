@@ -18,20 +18,21 @@
         <a href="#">
 <img src="Resimler/png-transparent-chef-logo-thumbnail.png" alt="chef logosu">
 </a>
-<nav class="nav">
+<nav class="nav" >
     <a href="#" class="anasayfa">Anasayfa</a>
     <a href="#">Hakkımızda</a>
     <a href="#">Menü</a>
     <a href="#">Ürünler</a>
-    <a href="#">Yorumlar</a>
+    <a href="#">Görüş Bildir</a>
     <a href="#">İletişim</a>
-    <a href="#">Blog</a>
+    <a href="#">Foto Galeri</a>
 </nav>
 <div class="arama">
 <button><i class="fas fa-search"></i></button>
 <button><i class="fas fa-shopping-cart"></i></button>
-<button><i class="fas fa-bars"></i></button>
+<button id="menu-btn"><i class="fas fa-bars"></i></button>
 </div>
+<div class="search-form"></div>
 </header>
 <section class="home">
    <div class="content"> 
@@ -59,7 +60,7 @@
             <div class="başlık"> 
    <img src="Resimler/indir 1.jpg"  alt="burger">
    <span class="kategori">Burger</span>
-   <h3>Tekli Köfte Burger</h3>
+   <h3>3'lü Köfte Burger</h3>
    <div class="fiyat">55TL <span>70TL</span></div>
             </div>
             <div class="bottom">
@@ -70,7 +71,7 @@
             <div class="başlık"> 
    <img src="Resimler/images.jpg"  alt="pizza">
    <span class="kategori">Pizza</span>
-   <h3>Tekli Büyük Boy Pizza </h3>
+   <h3>3'lü orta Boy Pizza </h3>
    <div class="fiyat">100TL <span>120TL</span></div>
             </div>
             <div class="bottom">
@@ -114,7 +115,7 @@
         </div>
         <div class="buton1">
             <div class="a">
-                <b class="fiyat1" style="font-size: large;">66 TL</b>
+                <b class="fiyat1" style="font-size: large;">57 TL</b>
             </div>
             <div class="btn1">
                 <a href="#">
@@ -134,7 +135,7 @@
         </div>
         <div class="buton1">
             <div class="a">
-                <b class="fiyat1" style="font-size: large;">66 TL</b>
+                <b class="fiyat1" style="font-size: large;">60 TL</b>
             </div>
             <div class="btn1">
                 <a href="#">
@@ -166,5 +167,126 @@
 </div>
 
 </section>
+<!-- iletişim kısmının kodları -->
+<section class="iletişim">
+    <h1>İletişim</h1>
+    <div class="genel">
+        <iframe class="harita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48658.442058147884!2d27.92503210869575!3d40.338960065681384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b5d377a8bfb0f1%3A0xbd33d2bd7058850e!2zQmFuZMSxcm1hLCBCYWzEsWtlc2ly!5e0!3m2!1str!2str!4v1684579872204!5m2!1str!2str"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form >
+            <h2>İletişim</h2>
+            <div class="giriş">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="İsim">
+                
+            </div>
+            <div class="giriş">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Gmail">
+                
+            </div>
+            <div class="giriş">
+                <i class="fas fa-phone"></i>
+                <input type="text" placeholder="Numara">
+                
+            </div>
+            <input type="submit" class="sipariş" value="Hemen İletişime Geç "  >
+        </form>
+    </div>
+</section>
+<!-- KAyıt OL kısmı kodları -->
+<section class="baş">
+    <h1>KAYIT OL</h1>
+  
+<div class="wrapper">
+   
+    <p>Üye ol indirimlerden ilk senin haberin olsun.</p>
+    <div class="title">Kayıt ol
+    </div>
+    <div class="social_media">
+        <div class="item">
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="item">
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="item">
+            <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="input_field">
+            <input type="text" placeholder="İsim" class="input">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Email" class="input">
+            <i class="far fa-envelope"></i>
+        </div>
+       
+            <div class="btn">
+                <a href="#" >Kayıt Ol</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- anket kısmı -->
+
+<section class="ana">
+    <h1>GÖRÜŞ BİLDİRME</h1>
+<div class="anket">
+   <h2>Görüşünü Bildir</h2>
+<div class="bölüm1">
+    <h3>Adınızı Giriniz</h3>
+    <input type="text" placeholder="adınız">
+</div>
+<div class="bölüm2">
+    <h3>Soyadınızı Giriniz</h3>
+    <input type="text" placeholder="soyadınız">
+</div>
+<tr>
+   
+    <td>
+        <h3>Görüşünüz</h3>
+        <textarea name="gorus" class="görüş" placeholder="GÖRÜŞÜNÜZ BİZİM İÇİN ÖNEMLİ"></textarea>
+    </td>    
+</tr>
+
+<div class="sipariş"  >Gönder</div>
+</div>
+
+</section>
+<!-- GAleri kısmı -->
+<section class="Galeri-baş">
+    <h1>FOTO GALERİ</h1>
+<div class="galeri">
+    <div class="galeri-kutu"><img src="Resimler/indir (1).jpg" alt=""></div>
+    <div class="galeri-kutu"><img src="Resimler/indir (2).jpg" alt=""></div>
+    <div class="galeri-kutu"><img src="Resimler/indir (3) daNA.jpg" alt=""></div>
+    <div class="galeri-kutu"><img src="Resimler/sucuklu-pizza-yeni-onecikan.jpg"  alt=""></div>
+    <div class="galeri-kutu"><img src="Resimler/indir galeri1.jpg" alt=""> </div>
+    <div class="galeri-kutu"><img src="Resimler/indir galeri2.jpg" alt="">
+    </div>
+</div>
+</section>
+<!-- footer kısmının kodları -->
+<div class="footer">
+    <div class="arama">
+        <input type="search" class="arama-giriş" placeholder="Arama" style="border-radius: 2rem;">
+        <button class="sipariş" >Ara</button>
+
+    </div>
+    <div class="paylaş">
+        <h4 style="color: aliceblue;">Bizi Paylaşabilirsiniz</h4>
+        <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyK1MKy5TYDRgdGDw4khLTE5Nys_PBgBmYAfL&client=opera&q=facebook&sourceid=opera&ie=UTF-8&oe=UTF-8" class="fab fa-facebook-f"></a>
+        <a href="https://www.google.com/search?client=opera&q=twitter&sourceid=opera&ie=UTF-8&oe=UTF-8" class="fab fa-twitter"></a>
+        <a href="https://www.google.com/search?client=opera&q=instagram&sourceid=opera&ie=UTF-8&oe=UTF-8" class="fab fa-instagram"></a>
+    </div>
+</div>
+
+
+
+<script src="main.js"></script>
 </body>
 </html>
