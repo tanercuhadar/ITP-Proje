@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,400;1,500;1,600&display=swap');
+
+:root{
+--main-color: #d8e8f7;
+--black-color:#000000;
+}
+
+*{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    transition: 0.2s ease;
+    border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+  
+    
+}
+
+.header img{
+    height: 8rem;
+}
+html{
+    overflow: auto;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--main-color);
+   
+    
+}
+section{
+    padding: 3.5rem 7%;
+}
+.sipariş{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 2rem 3.7rem;
+    border-radius: 35rem;
+    background-color: rgb(8, 9, 10);
+    color: rgb(236, 231, 231);
+}
+.header{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    padding: 0 10%;
+    margin: 2rem 7%;
+    justify-content: space-between;
+    position: sticky;   
+    top: 0;
+    z-index: 1000;
+    border-radius: 2rem; 
+    }
+    .header .nav a{
+        font-size: 1.5rem;
+        color: var(--black-color);
+        margin: 0 1rem;
+        border-bottom: 0.1rem solid transparent;
+
+    }
+    .header .nav a:hover{
+        border-color: var(--black-color);
+        padding-bottom: 0.3rem;
+    }
+    .header .nav  .anasayfa{
+        border-color: var(--black-color);
+        padding-bottom: 0.3rem;
+    }
+    .header .arama button{
+margin-left: 2rem;
+cursor: pointer;
+background-color: transparent;
+font-size: 2rem;
+
+    }
+    .home{
+        min-height: 100vh;
+        background: url(Resimler/yemek-fotografi-nasil-cekilir-ankara-dijital-ajans-siradisi-digital-5.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        margin-top: -14.5rem;
+    }
+    .home .content{
+        max-width: 60rem;
+
+    }
+    .home .content h2{
+        font-size: 6rem;
+        color: white;
+
+    }
+    .home .content p{
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 2;
+        padding: 1rem 0;
+        color: #ffffff;
+        
+    }
+    .sipariş:hover{
+        opacity: 0.7;
+        
+
+    }
+    .menü .kutular .kutu .fiyat span{
+        text-decoration-line: line-through;
+        font-size: medium;
+    
+    }
+    .menü span{
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 3rem 0;
+       
+    }
+    .menü .kutular .kutu .fiyat{
+        font-size: 2rem;
+        font-size: large;
+    }
+    .menü .kutular .kutu h3{
+        font-size: 2.5rem;
+        padding: 2rem 0 ;
+    }
+    .menü .kutular .kutu .kategori{
+text-transform: uppercase;
+        font-size: 1.3rem;
+    }
+    .menü .kutular .kutu{
+background-color: rgb(174, 219, 204);
+padding: 4rem;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: flex-start;
+border-radius: 2rem;
+min-height: 55rem;
+
+
+    }
+    .menü .kutular .kutu img{
+        width: 100%;
+        object-fit: cover;
+        height: 30rem;
+        background-color: transparent;
+
+    }
+
+    .menü .kutular{
+gap: 6rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .kısım .ürünler1{
+        gap: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    }
+    .kısım .ürünler1 .ürün1{
+        text-align: center;
+        border-radius: 2.5rem;
+        display: flex;
+        height: 50rem;
+       padding: 2.5rem;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        background-color: rgb(174, 219, 204);
+    }
+    .kısım .ürünler1 .ürün1 .başlangıç1 a{
+        font-weight: bold;
+        text-align: start;
+        font-size: 1.4rem;
+       
+    }
+    .kısım .ürünler1 .ürün1 .başlangıç1 h4{
+        font-size: 2rem;
+
+    }
+    .kısım .ürünler1 .ürün1 .başlangıç1{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        display: flex;
+    }
+  
+    }
+    .kısım .ürünler1 .buton1{
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 10rem;
+        font-size: large;
+        
+        
+    }
+    .kısım .ürünler1 .ürün1 .btn1 a{
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        border: 2rem solid var(--main-color);
+    }
+    .kısım h2 span{
+font-weight: bold;
+font-size: 3.5rem;
+    }
+    .kısım .ürünler1 .ürün1 .resim img{
+        display: flex;
+        top: 50%;
+        width: 100%;
+        height: 100%;
+       height: 30rem;
+        border-radius: 2rem;
+        width: 100%;
+        object-fit: cover;
+       padding: 2rem ;
+    }
+.hakkımızda .about img{
+    width: 50%;
+    
+}
+.metin{
+    text-align: center;
+
+}
+.metin p{
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: small;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+.hakkımızda .about .metin h1{
+    font-size: large;
+font-size: 4rem;
+font-style: italic;
+color: rgb(231, 61, 61);
+}
+  
+  .genel{
+    display: flex;
+    column-gap: 2.5rem;
+    
+  }
+.hakkımızda h1 span{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.hakkımızda{
+    margin-bottom: 4rem;
+}
+.iletişim .genel .harita{
+    flex: 1 1 45rem;
+    object-fit: cover;
+    width: 100%;
+}
+.iletişim .genel form .giriş i{
+    color: white;
+    margin-right: 1rem;
+    padding-left: 6rem;
+    font-size: 2.5rem;
+}
+.iletişim .genel form .giriş{
+    margin-top: 3rem;
+    display: flex;
+    border: var(--black-color);
+    align-items: center; 
+    margin-bottom: 3rem;
+    
+
+}
+.iletişim .genel form h2{
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+.iletişim .genel{
+    display: flex;
+    background-color: var(--black-color);
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.iletişim .genel form{
+    flex: 1 1 45rem;
+    object-fit: cover;
+    width: 100%;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.iletişim h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.iletişim .genel form .giriş input{
+    color: wheat;
+    width: 100%;
+    background: none;
+}
+/* giriş yap */
+
+.wrapper{
+    max-width: 50%;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    padding: 60px 45px;
+   padding: auto;
+   margin-top: 30rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+}
+.baş h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+
+}
+.baş .wrapper p{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.wrapper .title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
+    color: #3aaf9f;
+}
+.wrapper .social_media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.wrapper .social_media .item{
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #eeeeee;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #eeeeee;
+    transition: all 0.5s ease;
+}
+.wrapper .social_media .item:hover{
+    border-color: #3aaf9f;
+    color: #3aaf9f;
+}
+.wrapper .form .input_field{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.wrapper .form .input_field .input{
+    width: 100%;
+    padding: 12px;
+    padding-left: 3rem;
+    border: none;
+    background: #eeeeee;
+}
+
+.wrapper .form .btn{
+    width: 70%;
+    margin: 2rem auto 0;
+    background: #3aaf9f;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 2.5rem;
+}
+.wrapper .form .btn a{
+    color: #fff;
+}
+.wrapper .form .input_field i{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #1d2120;
+    font-size: 1.5rem;
+}
+
+::-webkit-input-placeholder{
+    color: #848484;
+}
+/* footer ksımı */
+
+/* anket kısmı */
+.anket{
+   
+background-color:white;
+    text-align: center;
+    margin-bottom: 15%;   
+    border-radius: 3rem;
+
+margin: 2rem 15rem;
+}
+.anket .görüş{
+background-color: var(--black-color));
+
+width: 20rem;
+
+}
+.anket input{
+    font-size: medium;
+    width: 30%;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+   background-color:rgb(223, 217, 217);
+   border-radius: 0.5rem;
+
+    
+}
+
+ .anket h3{
+font-size: medium;
+
+
+}
+.ana h1{
+    font-weight: bold;
+font-size: 3.5rem;
+}
+ .ana  .sipariş{
+
+  margin: 4rem 4rem;
+  padding: 1rem;
+    text-align: center;
+  
+
+  
+}
+.ana .anket .görüş{
+    font-size: medium;
+    width: 30%;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+  background-color: rgb(223, 217, 217);
+   border-radius:0.5rem;
+    
+}
+.ana .anket h2{
+   flex: 3rem 2rem;
+    display: flex;
+    margin: 5rem 37rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3aaf9f
+}
+
+.galeri{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    padding-bottom: 10rem;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+.galeri-kutu{
+    height: 15rem;
+    width: 15rem;
+    margin: 0 1rem;
+    background-color: grey;
+    transition: 0.5s;
+}
+.galeri-kutu:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
+.galeri-kutu img{
+    border-radius: 1rem;
+    width: 25rem;
+    height: 20rem;
+}
+.Galeri-baş h1{
+
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+/* footer kısmı gerçek */
+.footer{
+    text-align: center;
+    height: 13rem;
+   margin-top: 4rem;
+   
+    background-color: var(--black-color);
+}
+.arama-girişi{
+
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    text-transform: none;
+    color: var(--black-color);
+
+}
+.paylaş{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer .paylaş a{
+  margin: 1rem;
+font-size: 1.9rem;
+margin-right: 2rem;
+padding-left: 2rem;
+color:wheat;
+
+}
+    
+    .footer .paylaş h4{
+   padding-top: 3px;
+   font-size: medium;
+}
